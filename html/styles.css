@@ -1,0 +1,107 @@
+
+
+.encabezado {background-color: green;
+    padding: 5px; /* Separación de 5px alrededor del contenido */
+    display: flex; /* Para alinear elementos horizontalmente */
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+
+.fondo_heroes {
+    background-color: blue;
+    padding: 5px;
+    display: flex;
+    align-items: center; /* Para alinear verticalmente */
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5); 
+    margin-top: 0;
+}
+
+.h1 {
+    color: black;
+    margin-right: 5px;
+}
+
+
+.contenedor {
+    display: flex; /* Activa el modelo de caja flexible */
+    justify-content: center; /* Distribuye las cajas horizontalmente */
+}
+
+.caja_1 {
+    width: 200px; /* Ancho deseado de la caja */
+    height:500px; /* Altura deseada de la caja */
+    background-image: url('flash.jpg'); /* Ruta de la imagen de fondo */
+    border-radius: 10px; /* Borde redondeado */
+    border: 1px solid #ccc; /* Borde con un color */
+    padding: 20px; /* Relleno interno */
+    text-align: left; /* Alineación de texto a la izquierda */
+    float: left; /* Alineación a la izquierda */
+    margin-right: 20px;
+}
+.flash{
+    text-align: center;
+}
+
+.caja_2 {
+    width: 200px; /* Ancho deseado de la caja */
+    height: 500px; /* Altura deseada de la caja */
+    background-image: url('superman.jpg'); /* Ruta de la imagen de fondo */
+    border-radius: 10px; /* Borde redondeado */
+    border: 1px solid #ccc; /* Borde con un color */
+    padding: 20px; /* Relleno interno */
+    text-align: left; /* Alineación de texto a la izquierda */
+    float: left; /* Alineación a la izquierda */
+    margin-right: 20px;
+}
+.superman{
+    text-align: center;
+}
+.caja_3 {
+    width: 200px; /* Ancho deseado de la caja */
+    height: 500px; /* Altura deseada de la caja */
+    background-image: url('captanamerica.jpg'); /* Ruta de la imagen de fondo */
+    border-radius: 10px; /* Borde redondeado */
+    border: 1px solid #ccc; /* Borde con un color */
+    padding: 20px; /* Relleno interno */
+    text-align: left; /* Alineación de texto a la izquierda */
+    float: left; /* Alineación a la izquierda */
+    margin-right: 20px;
+}
+.cp_america{
+    text-align: center;
+}
+
+.pie {background-color: blue;
+    padding: 5px; /* Separación de 5px alrededor del contenido */
+    display: flex; /* Para alinear elementos horizontalmente */
+    margin-right: 5px;
+    margin-bottom: 0;
+    padding-left: 50px;
+}
+
+.logo {
+    
+    width: 50%; /* Asegura que la imagen no sea más ancha que la caja */
+    height: 20%; /* Asegura que la imagen no sea más alta que la caja */
+    display: block; /* Elimina el espacio en blanco debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-radius: 100%;
+}
+
+
+.ver {
+    width: 90px; /* Ancho deseado */
+    height: 10px; /* Alto deseado */
+    background-color: rgb(60, 63, 243);
+    text-align: center;
+    color: white;
+    padding: 5%; /* Separación de 5px alrededor del contenido */
+    display: flex; /* Para alinear elementos horizontalmente */
+    margin-right: 5px;
+    margin-bottom: 0;
+    padding-left: 50px;
+    position: absolute; /* Permite posicionar la caja hija de forma absoluta */
+    bottom: 0;
+    transform: translateY(100%);
+}
